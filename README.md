@@ -1,3 +1,9 @@
+# ScreenShot
+
+![Screenshot (114)](https://github.com/vedansh8650125749/Text-utils/assets/91623957/cc03524a-50d9-47c1-aa48-2587c780684d)
+![Screenshot (119)](https://github.com/vedansh8650125749/Text-utils/assets/91623957/44799a6d-b501-4163-85f6-e26777ac6393)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
