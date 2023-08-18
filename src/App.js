@@ -59,7 +59,6 @@ function App() {
         </div>
       </Router>
       <Footer mode={mode} />
-
     </>
   );
 }

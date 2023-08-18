@@ -34,11 +34,13 @@ export default function TextForm(props) {
     };
 
     const checkBadWords = (text) => {
-        const badwords = ['ass', 'fuck', 'motherfucker'];
+        const badwords = ['ass', 'fuck', 'motherfucker']
+        let nt
         for (const word of badwords) {
-            if (text.includes(word)) {
-                alert('Bad word found !!!!');
-                return true;
+            if (text.toLowerCase().includes(word.toLowerCase())) {
+              alert('Bad word found!');
+              nt = text.replace(new RegExp(word, 'gi'), ''); // Replace bad word with ***
+              setText(nt)
             }
         }
         return false;

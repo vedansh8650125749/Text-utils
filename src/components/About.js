@@ -9,7 +9,7 @@ export default function About(props) {
                 <div className="row featurette">
                     <div className="col-md-7">
                         <h2 className="featurette-heading fw-normal lh-1">{`{`}Vedansh Verma{`}`}<span className={`text-${props.mode === 'light' ? 'dark' : 'light'}`}>{`<>`}Developer{`</>`}</span></h2>
-                        <p className="lead">I m a Developer and this is my First React Web.</p>
+                        <p className="lead">I m a React Web Developer and this is my First React Web.</p>
                     </div>
                     <div className="col-md-5">
                         <img className="bd-placeholder-img rounded-circle bd-placeholder-img-lg featurette-image img-fluid mx-auto"
